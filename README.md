@@ -4,7 +4,7 @@ Programmers Emma Scott & Molly Swope
 
 ## REQUIRED FILES
 - finalproject.py
-- graphics.py
+- graphics.py from https://mcsp.wartburg.edu/zelle/python/graphics.py
 - scoreboard.py
 - rabbit.py
 - squirrel.py
