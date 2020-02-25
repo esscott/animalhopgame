@@ -1,8 +1,8 @@
 # animalhopgame
-Animal Hop Game for CSC 111 Final Project at Smith College
+"Animal Hop Game" Final Project for CSC 111: Introduction to Computer Science through Programming at Smith College
 Programmers Emma Scott & Molly Swope
 
-## REQUIRED FILES
+## Required Files
 - finalproject.py
 - graphics.py from https://mcsp.wartburg.edu/zelle/python/graphics.py
 - scoreboard.py
@@ -10,7 +10,7 @@ Programmers Emma Scott & Molly Swope
 - squirrel.py
 - skunk.py
 
-## EXPLANATION OF HOW TO RUN PROJECT
+## Explanation of How to Run Project
 1. Download required files
 2. Be sure required files are in the same location
 3. Open finalproject.py in Python Idle
@@ -23,11 +23,11 @@ Programmers Emma Scott & Molly Swope
 10. Press any key to jump and avoid obstacles
 11. If you hit an obstacle, you will have two more chances before the game is over
 
-## PROJECT DESCRIPTION
+## Project Description
 - The primary objective/purpose of the Animal Hop Game is to entertain young children with an interactive game that allows them to make choices between different animal avatars and to self-set and meet goals by keeping track of high scores
 - The intended audience is young children whose parents are looking for a simple, non-violent computer game to entertain them while they do projects around the house, run errands, or make phone calls
 
-## ARCHITECTURE DESCRIPTION
+## Architecture Description
 Animal() class: 
 - Constructor takes in name, window, position, and choice attributes
 - Methods include draw and jump
@@ -52,5 +52,5 @@ storeScores() function:
 main() function:
 - Purpose is to display opening greeting, prompts, and instructions to shell, call classes and functions, display warning messages to window, and keep track of score using time library
 
-## MAJOR CHALLENGE DISCUSSION
+## Major Challenge Discussion
 We faced a major challenge early on. When working towards a minimum viable project, we got hung up on the issue of making obstacles move across the screen continuously and randomly as we were only able to figure out how to make one obstacle come and go. In order to overcome it, we went to the next available TA Hours and the TA suggested that meet our goal, we would have to type a new code block for every obstacle that we wanted to appear. This was somewhat disheartening, so we then went to get a second opinion at office hours where we learned that there was a relatively simple way to make a kind of conveyor belt looping pattern where boxes would exit the screen on the left and reenter the screen on the right at random times. The next night, we were able to implement this fix, and we were off and running once again. 
